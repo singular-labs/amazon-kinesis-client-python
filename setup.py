@@ -54,17 +54,23 @@ PYTHON_REQUIREMENTS = [
         ]
 REMOTE_MAVEN_PACKAGES = [
         # (group id, artifact id, version),
-        ('com.amazonaws', 'amazon-kinesis-client', '1.2.0'),
-        ('com.fasterxml.jackson.core', 'jackson-core', '2.1.1'),
-        ('org.apache.httpcomponents', 'httpclient', '4.2'),
-        ('org.apache.httpcomponents', 'httpcore', '4.2'),
-        ('com.fasterxml.jackson.core', 'jackson-annotations', '2.1.1'),
-        ('commons-codec', 'commons-codec', '1.3'),
+        ('com.amazonaws', 'amazon-kinesis-client', '1.5.1'),
+        ('com.fasterxml.jackson.core', 'jackson-core', '2.3.2'),
+        ('org.apache.httpcomponents', 'httpclient', '4.3.4'),
+        ('org.apache.httpcomponents', 'httpcore', '4.3.2'),
+        ('com.fasterxml.jackson.core', 'jackson-annotations', '2.3.0'),
+        ('commons-codec', 'commons-codec', '1.6'),
         ('joda-time', 'joda-time', '2.4'),
-        ('com.amazonaws', 'aws-java-sdk', '1.7.13'),
-        ('com.fasterxml.jackson.core', 'jackson-databind', '2.1.1'),
-        ('commons-logging', 'commons-logging', '1.1.1'),
-        ]
+        ('com.fasterxml.jackson.core', 'jackson-databind', '2.3.2'),
+        ('commons-logging', 'commons-logging', '1.1.3'),
+        ('com.amazonaws', 'aws-java-sdk-cloudwatch','1.9.37'),
+        ('com.amazonaws', 'aws-java-sdk-core','1.9.37'),
+        ('com.amazonaws', 'aws-java-sdk-dynamodb','1.9.37'),
+        ('com.amazonaws', 'aws-java-sdk-kinesis','1.9.37'),
+        ('com.google.guava', 'guava','18.0'),
+        ('com.google.protobuf', 'protobuf-java','2.6.1'),
+        ('commons-lang', 'commons-lang','2.6'),
+    ]
 
 class MavenJarDownloader:
 
